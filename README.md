@@ -8,12 +8,16 @@
 
 > 这是一个受 Odyssey Planning / 人生设计思路启发的 AI 项目，但为独立实现，非官方产品。
 
+---
+
 ## 方法来源说明
 
 本项目的方法灵感，来自斯坦福 Life Design / Designing Your Life 体系中的 **Odyssey Planning** 思路。
 
 本仓库是一个 **独立的、AI 辅助的下一步推演工具化实现**，用于反思、推演与低成本验证。  
 它 **不是** 斯坦福官方产品、官方课程配套工具，也 **不代表** 官方立场。
+
+---
 
 ## 这是什么
 
@@ -75,7 +79,7 @@
 - 命运预测器
 - 心理诊断工具
 - 替你做决定的权威顾问
-- 冲动辞职 / 冲动改变人生的鼓动器
+- 冲动辞职 / 冲动做重大决定的鼓动器
 
 它更像一个：
 
@@ -120,7 +124,7 @@
 
 ## 仓库结构
 
-```text
+
 Simulate-your-next-steps/
 ├── README.md
 ├── LICENSE
@@ -145,3 +149,97 @@ Simulate-your-next-steps/
     │   ├── improvement.yml
     │   └── share-your-story.yml
     └── pull_request_template.md
+## 如何使用
+
+### 方法一：直接复制 Prompt 使用
+
+进入 `skill/system-prompt.md`，复制提示词到你常用的 AI 平台中使用。
+
+### 方法二：按模块组合使用
+
+你也可以拆开使用：
+
+- `welcome-message.md`：欢迎语
+- `intake-questions.md`：提问采集
+- `output-template.md`：结构化输出模板
+
+### 方法三：结合你自己的案例迭代
+
+你可以根据自己的需求，补充案例、优化问题、调整输出结构。
+
+---
+
+## 示例问题
+
+你可以拿这些问题开始：
+
+- 我到底该不该转行？
+- 我要不要离开现在的城市？
+- 婚姻、事业、自由，怎么排优先级？
+- 我现在的痛苦，是阶段性的，还是方向性的？
+- 我想创业，但不知道这是真想做，还是不想上班了
+- 我想换一种生活，但不知道该先试哪条路
+
+---
+
+## 示例案例说明
+
+`examples/` 目录下的案例均为 **虚构的合成案例**，仅用于演示方法，不对应任何真实个人。
+
+---
+
+## 项目边界
+
+本项目用于 **下一步方向模拟与决策辅助**。
+
+它不用于：
+
+- 命运预测
+- 宿命论判断
+- 心理诊断
+- 替代心理咨询、医疗、法律、投资等专业意见
+
+这个项目鼓励的是：
+
+> **低成本验证，而不是高风险冲动决策。**
+
+---
+
+## 欢迎贡献
+
+这个项目还在持续迭代中。
+
+欢迎你通过以下方式参与：
+
+- 提出更好的提问方式
+- 优化输出模板
+- 补充虚构合成案例
+- 增加边界说明
+- 修正文案与结构问题
+- 分享你的使用反馈
+
+你可以通过 Issue 或 Pull Request 参与共建。
+
+---
+
+## 适合先从哪里开始
+
+初次使用建议先看这 4 个文件：
+
+- `skill/system-prompt.md`
+- `skill/welcome-message.md`
+- `skill/intake-questions.md`
+- `skill/output-template.md`
+
+---
+
+## 愿望
+
+虽然这个项目不能替你回答“下一步的标准答案”，  
+但至少能陪你把未来几种可能性，先认真推演一遍。
+
+> **把下一步的纠结，变成可推演的选择。**
+
+Created and maintained by **ningning-ai**.
+
+Built with a little of **ningning's warmth** for anyone trying to think more clearly about their next step.
