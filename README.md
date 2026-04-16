@@ -124,7 +124,7 @@
 
 ## 仓库结构
 
-
+```text
 Simulate-your-next-steps/
 ├── README.md
 ├── LICENSE
@@ -149,6 +149,9 @@ Simulate-your-next-steps/
     │   ├── improvement.yml
     │   └── share-your-story.yml
     └── pull_request_template.md
+```
+
+
 ## 如何使用
 
 ### 方法一：直接复制 Prompt 使用
@@ -243,3 +246,6 @@ Simulate-your-next-steps/
 Created and maintained by **ningning-ai**.
 
 Built with a little of **ningning's warmth** for anyone trying to think more clearly about their next step.
+
+
+
