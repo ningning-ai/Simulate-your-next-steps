@@ -1,5 +1,8 @@
 # Example Case: Career Shift
 
+> This is a fictional composite example for demonstration only.  
+> 以下为虚构的合成案例，仅用于演示方法，不对应任何真实个人。
+
 ## User Question
 
 我现在在一份稳定但越来越没感觉的工作里，想转去更有创造性的方向，但又担心收入波动。我要不要转？
